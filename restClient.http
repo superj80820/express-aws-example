@@ -1,0 +1,9 @@
+POST http://localhost:3000/s3 HTTP/1.1
+Content-Type: multipart/form-data; boundary=---011000010111000001101001
+
+-----011000010111000001101001
+Content-Disposition: form-data; name="file"; filename="test.jpg"
+Content-Type: image/*
+
+< ./test.jpg
+-----011000010111000001101001--
